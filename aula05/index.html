@@ -4,9 +4,149 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Curriculum Vitae</title>
 </head>
 <body>
-    
+
+    <style>
+        .inicio{
+            width: 100%;
+            background-color: black;
+            display: inline-block;
+            margin: 0px;
+        }
+
+        .textos{
+            display: inline-block;
+            width: 70%;
+            text-align: center;
+        }
+        
+
+        .texto{
+            font-size: 90%;
+        }
+
+        .textoin{
+            font-size: 90%;
+            color: white;
+        }
+
+        .nome{
+            font-size: 150%;
+        }
+
+        .nomein{
+            font-size: 150%;
+            color: white;
+        }
+
+        img{
+            width: 20%;
+            border-radius: 50%;
+        }
+
+        .foto-perfil:hover{
+            opacity: 80%;
+            transition: ease-in-out 0.5s;
+        }
+
+        .corpo{
+            margin: 5%;
+        }
+
+        #texto-bold{
+            font-weight: 1000;
+        }
+
+        #descricao{
+            margin-left: 5%;
+        }
+
+        .topico{
+            padding: 5%;
+            margin: 5%;
+            background-color: rgb(238, 224, 205);
+        }
+
+        .topico:hover{
+            background-color: rgb(212, 200, 182);
+            transition: ease-in-out 1s;
+        }
+
+    </style>
+
+    <div class="inicio">
+        <img class="foto-perfil" src="kahjro.jpeg" alt="Foto do gato modelo chamado Kahjro">
+        <div class="textos">
+            <h1 class="nomein">Kahjro Faino</h1>
+            <br>
+            <p class="textoin">Brasileiro, solteiro, 5 anos</p>
+            <p class="textoin">Endereço - Rua Pedro Ivo, 702</p>
+            <p class="textoin">Bairro Região do Lago - Cascavel - Paraná</p>
+            <p class="textoin">Telefone: (45) 99901-6801</p>
+            <p class="textoin">E-mail: kahjrofaino@gmiau.com</p>
+        </div>
+    </div>
+
+    <div class="corpo">
+        <div class="topico">
+            <h2 class="nome">01 - Objetivos</h2>
+            <p class="texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Voluptatem at consequuntur officia maiores id, qui eveniet ut obcaecati a 
+                nostrum quibusdam accusamus, molestiae rerum doloremque molestias facere 
+                voluptates quam inventore?</p>
+        </div>
+
+        <div class="topico">        
+            <h2 class="nome">02 - Formação</h2>
+                <ul class="lista">
+                    <li id="item">Escola Estadual Miaurilis Faria Pirotelli</li>
+                    <li id="item">Universidade Estadual do Miau do Paraná</li>
+                </ul>
+        </div>
+
+        <div class="topico">
+            <h2 class="nome">03 - Experiências profissionais</h2>
+            <ul class="lista">
+                <li id="item">
+                    <p id="texto-bold" >Instituto de Angiologia e Cirurgia Miauscular</p>
+                    <p id="descricao">Cargo: Recepcionista</p>
+                    <p id="descricao">Principais atribuições: confirmar consultas dos pacientes</p>
+                </li>
+                <li id="item">
+                    <p id="texto-bold" >Cat Café</p>
+                    <p id="descricao">Cargo: Gato</p>
+                    <p id="descricao">Principais atribuições: ser um gato</p>
+                </li>
+            </ul>
+        </div>
+
+        
+        <div class="topico">
+            <h2 class="nome">04 - Atividades complementares</h2>
+            <ul class="lista">
+                <li id="item">Curso de como jogar areia fora da caixa (2017 a 2022)</li>
+                <li id="item">Especialização em acordar humano às 3h da madrugada (2017 a 2022)</li>
+            </ul>
+        </div>
+
+        <div class="topico">
+            <h2 class="nome">05 - Idiomas</h2>
+            <ul class="lista">
+                <li id="item">Gatês (fluente)</li>
+                <li id="item">Português brasileiro (escuto desde 2017)</li>
+            </ul>
+        </div>
+
+        <div class="topico">
+            <h2 class="nome">05 - Referências pessoais</h2>
+            <ul class="lista">
+                <li id="item">Jaqueline Cavaller Faino - Dona atual (45) 99901 - 6801</li>
+                <li id="item">Especialização em acordar humano às 3h da madrugada (2017 a 2022)</li>
+            </ul>
+        </div>
+
+    </div>
 </body>
 </html>
