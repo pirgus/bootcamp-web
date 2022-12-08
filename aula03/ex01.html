@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="ex01.html" method="get">
+        <label for="name">Insira o seu nome:</label>
+        <input type="text" name="name" id="name" placeholder="Seu nome">
+        <input type="submit" value="Mudar o nome">
+        
+        <fieldset>
+            <legend>Radio Button</legend>
+            <label for="opcao1">Opção 1</label>
+            <input type="radio" value="opcao1" name="radio" id="opcao1">
+            <label for="opcao2">Opção 2</label>
+            <input type="radio" value="opcao2" name="radio" id="opcao2">
+            <label for="opcao3">Opção 3</label>
+            <input type="radio" value="opcao3" name="radio" id="opcao3">
+        </fieldset>
+
+        <fieldset>
+            <legend>Check Box</legend>
+            <label for="opcao1c">Opção 1</label>
+            <input type="checkbox" value="opcao1c" name="checkbox" id="opcao1c">
+            <label for="opcao2c">Opção 2</label>
+            <input type="checkbox" value="opcao2c" name="checkbox" id="opcao2c">
+            <label for="opcao3c">Opção 3</label>
+            <input type="checkbox" value="opcao3c" name="checkbox" id="opcao3c">
+        </fieldset>
+
+        <label for="choice">Selecione a escolha</label>
+        <select name="choice" id="choice">
+            <option value="Item1">Item 1</option>
+            <option value="Item2">Item 2</option>
+            <option value="Item3">Item 3</option>
+        </select>
+        <input type="submit" value="Mudar item">
+    </form>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="lista_ex01.html" method="get">
+        <label for="name">Insira seu nome</label>
+        <input type="text" name="name" id="name" placeholder="Fulano da Silva">
+        <br>
+
+        <label for="phone">Insira o número de seu celular</label>
+        <input type="tel" name="phone" id="phone" placeholder="(00)00000-0000">
+        <br>
+        
+        <label for="email">Insira seu endereço de e-mail</label>
+        <input type="email" name="email" id="email" placeholder="fulanosilva@email.com">
+        <br>
+
+        <label for="birth">Insira sua data de nascimento</label>
+        <input type="date" name="birth" id="birth">
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Características pessoais</legend>
+            <label for="opcao1c">Sou vegetariano(a)</label>
+            <input type="checkbox" value="opcao1c" name="checkbox" id="opcao1c">
+            <label for="opcao2c">Gosto de comer pipoca</label>
+            <input type="checkbox" value="opcao2c" name="checkbox" id="opcao2c">
+            <label for="opcao3c">Choro às 3 da manhã</label>
+            <input type="checkbox" value="opcao3c" name="checkbox" id="opcao3c">
+        </fieldset>
+        <br>
+
+        <label for="choice">Selecione seu animal preferido</label>
+        <select name="choice" id="choice">
+            <option value="Item1">Cachorro</option>
+            <option value="Item2">Gato</option>
+            <option value="Item3">Jacaré</option>
+        </select>
+        <br>
+
+        <fieldset>
+            <legend>Marque as linguagens de sua preferência</legend>
+            <label for="opcao1">HTML</label>
+            <input type="radio" value="opcao1" name="radio" id="opcao1">
+            <label for="opcao2">Cobol</label>
+            <input type="radio" value="opcao2" name="radio" id="opcao2">
+            <label for="opcao3">Portugol</label>
+            <input type="radio" value="opcao3" name="radio" id="opcao3">
+            <label for="opcao4">Matlab</label>
+            <input type="radio" value="opcao4" name="radio" id="opcao4">
+        </fieldset>
+        <br>
+
+        <label for="login">Insira suas informações de login</label>
+        <input type="email" name="login" id="login">
+        <br>
+
+        <label for="password">Insira sua senha</label>
+        <input type="password" name="password" id="password">
+        <br>
+
+        <input type="submit" value="Salvar alterações">
+
+    </form>
+</body>
+</html>
