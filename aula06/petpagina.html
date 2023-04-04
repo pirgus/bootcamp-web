@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <caption>Exemplo de tabela:</caption>
+        <colgroup>
+            <col>
+            <col>
+        </colgroup>
+
+        <thead>
+            <th scope="col">Coluna 1</th>
+            <th scope="col">Coluna 2</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1x1</td>
+                <td>1x2</td>
+            </tr>
+            <tr>
+                <td>2x1</td>
+                <td>2x2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form action="petpagina.html" method="get">
+        <label for="nome">Entrada de texto</label>
+        <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
+
+        <label for="numero">Entrada de número</label>
+        <input type="number" name="numero" id="numero" placeholder="Valor numerico" required>
+
+        <label for="items-select">Seletor</label>
+        <select name="items" id="items-select">
+            <option value="item 1">Item 1</option>
+            <option value="item 2">Item 2</option>
+            <option value="item 3">Item 3</option>
+        </select>
+
+        <hr>
+
+        <fieldset>
+            <legend>Selecao de checklist</legend>
+            <input type="checkbox" name="opcao" id="opcao1" value="opcao1">
+            <label for="opcao1">Opcao 1</label>
+
+            <input type="checkbox" name="opcao" id="opcao2" value="opcao2">
+            <label for="opcao2">Opcao 2</label>
+
+            <input type="checkbox" name="opcao" id="opcao3" value="opcao3">
+            <label for="opcao3">Opcao 3</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Selecao radial</legend>
+            <input type="radio" name="opcao" id="opcao1r" value="opcao1">
+            <label for="opcao1r">Opcao 1</label>
+
+            <input type="radio" name="opcao" id="opcao2r" value="opcao2">
+            <label for="opcao2r">Opcao 2</label>
+
+            <input type="radio" name="opcao" id="opcao3r" value="opcao3">
+            <label for="opcao3r">Opcao 3</label>
+        </fieldset>
+
+        <input type="submit" value="Enviar"> 
+        <button type="submit">Enviar em botao</button>
+    </form>
+
+    <figure>
+        <img src="https://pbs.twimg.com/media/Fo9DBZAWYBce8vb.jpg" alt="hakiado">
+        <figcaption>fidido</figcaption>
+    </figure>
+
+</body>
+</html>
