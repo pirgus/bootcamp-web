@@ -1,0 +1,44 @@
+.titulo{
+    text-align: center;
+    padding: 1%;
+    border-style: dotted;
+    border-color: black;
+}
+
+.div-com-divs-dentro{
+    text-align: center;
+    height: 100px;
+    /* justify-content: space-between; */
+    /* background-color: blue; */
+}
+
+.portadora-imagem{
+    margin-bottom: 20%;
+    padding: 0 10% 0 10%;
+    display: inline-block;
+    background-color: rgb(127, 127, 231);
+}
+
+.segunda-div{
+    padding: 2% 1% 2% 1%;
+    text-align: center;
+    background-color: rgb(108, 108, 187);
+    margin: 2% 0 2% 0;
+}
+
+
+.div-azul{
+    width: 33%;
+    color: white;
+    padding: 0 0 4% 0;
+    display: inline-block;
+    background-color: rgb(136, 63, 63);
+}
+
+.div-azul2{
+    width: 45%;
+    color: white;
+    padding: 0 0 4% 0;
+    display: inline-block;
+    background-color: rgb(136, 63, 63);
+}
